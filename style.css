@@ -1,0 +1,32 @@
+body
+{
+    height: 100vh;
+    background-color: aliceblue;
+    margin: 0px;
+}
+.aboutMe
+{
+    background: linear-gradient(326deg,white 70%,rgb(0 173 225) 70%);
+}
+.headerImgContainer
+{
+    padding: 2em;
+}
+.headerImg
+{
+    width: 100%;
+}
+@media (min-width:600px)  {
+    body
+    {
+        background-color: blue;
+    }
+    
+}
+@media (min-width:900px)  {
+    body
+    {
+        background-color: rgb(0, 255, 0);
+    }
+    
+}
